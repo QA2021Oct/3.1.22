@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<h1>Registration Form</h1>
+    <form action="page2.html" method="get">
+        <div class="container">
+            <label>Enter your First name:</label>
+             <input type="text" size="15" name="Firstname" placeholder="FirstName" required>
+            <label> Enter your Last name:</label>
+              <input  type="text" size ="15" name="LastName" placeholder="LastName" required>
+            <label>Enter your Email:</label>
+              <input type="email" size="15" name="email" placeholder="ABC@Gmail.com" required>
+            <label for="Date-Of-Birth">Date of Birth:</label>
+            <input type="date" id="Date-Of-Birth" min="1890-01-01" max="2022-01-01" name="DateOfBirth" required>
+                <div>
+                <label>Gender: </label>
+                <input id="Male" type="radio" value="Male" name="gender">Male
+                <input id="Female" type="radio" value="Female" name="gender">female
+                <input id="Other" type="radio" value="Other" name="gender">Other
+                </div>
+            <div>
+                <input class="registration" type="submit" value="Subscribe!">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
